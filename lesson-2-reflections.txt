@@ -14,6 +14,8 @@ You can use the staging area to commit files that actually have logical changes 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+branches are useful when experimenting with new game designs, but rather than adding on to the game and improving it, changing existing components. This could be for many reasons, to try something new, to the change the language, etc. The branches help keep these separate types of games organized by allowing you to name them. As the name implies, it lets you branch off into different ideas
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
