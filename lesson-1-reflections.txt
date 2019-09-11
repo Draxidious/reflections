@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The program pinpoints exactly what has changed, as opposed to manually looking through every single line. 
+	This dramatically shortens the lines that have to be looked at to find a bug and saves a ton of time when 
+	trying to find the bug. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If you make a program breaking mistake, it will be much easier to correct it by going back to a 
+	previous version to see what has changed and/or what has broke the program. Having one version means 
+	that you cannot compare a working program to the bugged one, making it extremely difficult and time 
+	consuming to fix bugs. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually choosing when to create a commit is that you can have less versions of the 
+	program, however each one can be more different than each other. Meaning that a new commit can have 
+	a lot more content than an older one. This makes utilizing file comparison a more helpful tool. The 
+	cons can include forgetting to create a new commit, or having too much of a difference between each 
+	commit, such that finding a bug is much more difficult due to the huge changes. The pros of having 
+	an automatic saving system is that you won't have to rememeber to save a version and the difference 
+	between each version shouldn't be to big. The cons would be that there will be many many versions 
+	that could have little distinction and whose title's don't help in identifying when exactly the code 
+	went wrong, so in order to find what went wrong you'd have to sift through many individually named 
+	versions to find the bug. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git was created for more programming oriented purposes. And in many cases in programming, 
+	different files will interact with each other. In something like google docs, separate files
+	tend not to interact with eachother at all. So it makes sense that each file is treated separately. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will tell you the ids of the files in the commit, at what time they were added, and how many lines
+	were inserted and deleted, and changes in files across the history. git diff will compare two different 
+	files and show specific changes within the files. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With version control, you can make a change that could break something because you have a back up plan
+	that will help make sure if the program breaks, its not the end of the world and you can revert back to
+	a working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try to use it for any major programming project I do, anything that will need repository 
+	to revert to previous changes.
