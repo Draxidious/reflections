@@ -27,3 +27,5 @@ Merging two branches will combine them in such a way that will include both func
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Some pros of automatic merging is that it makes merging quick and easy. A con would be that auto merging could assume too much and break your code. Always doing merges manually would assure merge quality, but would take much longer.
