@@ -23,5 +23,7 @@ They show what branches and parents can see what, as well as any unreachable com
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches will combine them in such a way that will include both functions and features as a part of the final merge. It is represented in the diagram in that way because it makes the most logical sense in that manner, it also respects the arrows. 
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
