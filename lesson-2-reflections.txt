@@ -18,6 +18,8 @@ branches are useful when experimenting with new game designs, but rather than ad
 
 How do the diagrams help you visualize the branch structure?
 
+They show what branches and parents can see what, as well as any unreachable commits. They help show the relationship across branches and commits.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
