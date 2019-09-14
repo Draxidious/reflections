@@ -2,3 +2,6 @@ When would you want to use a remote repository rather than keeping all your work
 
 Using a remote repository allows you to interact with github and makes collaborative work possible, it also allows other people to view, and/or improve your code. 
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Having manual control over pulling changes allows the user to pull whenever a logical change has been made. An automatic pull would simply pull everytime there is a change, so commits would begin to clutter. 
