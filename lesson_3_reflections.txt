@@ -1,4 +1,4 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-Using a remote repository makes collaborative work possible, it also allows other people to view, and/or improve your code. 
+Using a remote repository allows you to interact with github and makes collaborative work possible, it also allows other people to view, and/or improve your code. 
 
