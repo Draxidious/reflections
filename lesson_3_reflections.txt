@@ -17,3 +17,7 @@ It would be similar, however not identical, to the concept of a staging area. Th
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Collaboration would be much much more difficult without github, everytime you'd work on code you'd have to be in contact with the people you are collaborating with and it would be much less efficient. Sharing the code would also be a pain
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Typically, one would like to make changes in a separate branch when they are experimenting on something that could possibly break master. While working on a separate branch takes more work to update the master branch, it allows users to keep a solid working version of the program while working on big new features, without having to worry about permanately breaking the program
