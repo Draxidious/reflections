@@ -9,3 +9,8 @@ Having manual control over pulling changes allows the user to pull whenever a lo
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Forks are used to clone a repository from github onto your github. This allows you to create your own version of someone elses repository quickly, collaboratively and easily, while still giving credit to the original owner. Cloning is like forking but is not exculsive to github. Cloning does not aid very well in collaborative work when it comes to collaboratively editing someones existing repository. Branching creates a new label for different commits/different versions of code. While apart of repositories, it does change them, only add to them.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It would be similar, however not identical, to the concept of a staging area. The remote can be seen as the staging area between the local machine and github. In that case, having a copy of the last known state will help the user know exactly what he/she wants to push to github. A remote is like a larger staging area that stores more than just the changes in a repository.
+
